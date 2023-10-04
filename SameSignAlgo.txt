@@ -1,0 +1,12 @@
+Algorithme SameSign
+Variables 
+    N1,N2:entier
+Debut
+    ecrire("enter tow number")
+    lire(N1,N2)
+    si N1 * N2 >0 alors 
+        ecrire("same sign")
+    sinon 
+        ecrire("diff sign")
+    fin si 
+fin
